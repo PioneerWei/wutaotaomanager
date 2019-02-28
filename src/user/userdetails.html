@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="TheAdmin - Responsive Bootstrap 4 Admin, Dashboard &amp; WebApp Template">
+    <meta name="keywords" content="dashboard, index, main">
+
+    <title>用户列表</title>
+
+    <!-- Styles -->
+    <link href="../assets/css/core.min.css" rel="stylesheet">
+    <link href="../assets/css/app.min.css" rel="stylesheet">
+    <link href="../assets/css/style.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../assets/img/favicon.png">
+
+  </head>
+  <body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="spinner-dots">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+      </div>
+    </div>
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-icons-left sidebar-expand-lg sidebar-sm">
+      <header class="sidebar-header bg-primary">
+        <a class="logo-icon" href="../index.html"><img src="../assets/img/logo-icon-light.png" alt="logo icon"></a>
+        <span class="logo">
+          <a href="../index.html"><img src="../assets/img/logo-light.png" alt="logo"></a>
+        </span>
+        <span class="sidebar-toggle-fold"></span>
+      </header>
+
+      <nav class="sidebar-navigation">
+        <ul class="menu menu-bordery">
+
+          <li class="menu-category">功能导航</li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="../index.html">
+              <span class="icon fa fa-home"></span>
+              <span class="title">首页</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-align-left"></span>
+              <span class="title">优惠管理</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../youhui/youhuifabulist.html">
+                  <span class="dot"></span>
+                  <span class="title">已发布优惠</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../youhui/fenleilist.html">
+                  <span class="dot"></span>
+                  <span class="title">分类管理</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../youhui/pinpailist.html">
+                  <span class="dot"></span>
+                  <span class="title">品牌管理</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../youhui/danweilist.html">
+                  <span class="dot"></span>
+                  <span class="title">单位管理</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-cloud-download"></span>
+              <span class="title">采集管理</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../caiji/youhuilist.html">
+                  <span class="dot"></span>
+                  <span class="title">已采集优惠</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../caiji/bazhuayugroup.html">
+                  <span class="dot"></span>
+                  <span class="title">采集任务</span>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-shopping-bag"></span>
+              <span class="title">兑换管理</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../duihuan/duihuanlist.html">
+                  <span class="dot"></span>
+                  <span class="title">兑换列表</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a class="menu-link" href="../duihuan/duihuandingdanlist.html">
+                  <span class="dot"></span>
+                  <span class="title">订单列表</span>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-item active open">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-user"></span>
+              <span class="title">用户管理</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item active">
+                <a class="menu-link" href="userlist.html">
+                  <span class="dot"></span>
+                  <span class="title">用户列表</span>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="icon fa fa-gear"></span>
+              <span class="title">系统设置</span>
+              <span class="arrow"></span>
+            </a>
+
+            <ul class="menu-submenu">
+              <li class="menu-item">
+                <a class="menu-link" href="../setting/person.html">
+                  <span class="dot"></span>
+                  <span class="title">个人信息</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="../setting/changepwd.html">
+                  <span class="dot"></span>
+                  <span class="title">修改密码</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="../setting/manager.html">
+                  <span class="dot"></span>
+                  <span class="title">后台用户管理</span>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+    </aside>
+    <!-- END Sidebar -->
+    <!-- Topbar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <h3 class="topbar-title">用户列表</h3>
+        <div class="topbar-divider d-none d-md-block"></div>
+        <span class="topbar-btn sidebar-toggler"><i>&#9776;</i></span>
+        <a class="topbar-btn d-none d-md-block" href="#" data-provide="fullscreen tooltip" title="Fullscreen">
+          <i class="material-icons fullscreen-default">fullscreen</i>
+          <i class="material-icons fullscreen-active">fullscreen_exit</i>
+        </a>
+
+
+
+      </div>
+
+      <div class="topbar-right">
+
+
+        <ul class="topbar-btns">
+          <li class="dropdown">
+            <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="../assets/img/avatar/1.jpg" alt="..."></span>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="../page/profile.html"><i class="ti-user"></i> 个人信息</a>
+              <a class="dropdown-item" href="#"><i class="ti-settings"></i> 修改密码</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../page-extra/user-login-3.html"><i class="ti-power-off"></i> 退出</a>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </header>
+    <!-- END Topbar -->
+    <!-- Main container -->
+    <main>
+      <div class="main-content">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="card card-body text-center">
+              <div class="fs-40 fw-100">125</div>
+              <div>当前羊毛</div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="card card-body text-center">
+              <div class="fs-40 fw-100">125</div>
+              <div>已消耗羊毛</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#home-basic" aria-expanded="true">基本信息</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#profile-basic" aria-expanded="false">羊毛记录</a>
+              </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade active show" id="home-basic" aria-expanded="true">
+                <dl class="row">
+                  <dt class="col-md-3">头像</dt>
+                  <dd class="col-md-9">1</dd>
+
+                  <dt class="col-md-3">昵称</dt>
+                  <dd class="col-md-9">2</dd>
+
+                  <dt class="col-md-3">手机</dt>
+                  <dd class="col-md-9">3</dd>
+
+                  <dt class="col-md-3 text-truncate">邮箱</dt>
+                  <dd class="col-md-9">4</dd>
+
+                  <dt class="col-md-3">性别</dt>
+                  <dd class="col-md-9">5</dd>
+
+                  <dt class="col-md-3">unionid</dt>
+                  <dd class="col-md-9">5</dd>
+
+                  <dt class="col-md-3">openid</dt>
+                  <dd class="col-md-9">5</dd>
+
+                  <dt class="col-md-3">注册时间</dt>
+                  <dd class="col-md-9">5</dd>
+
+                  <dt class="col-md-3">最后登录时间</dt>
+                  <dd class="col-md-9">5</dd>
+
+                  <dt class="col-md-3">注册类型</dt>
+                  <dd class="col-md-9">5</dd>
+
+                  <dt class="col-md-3">邀请人昵称</dt>
+                  <dd class="col-md-9 text-primary">5</dd>
+                </dl>
+              </div>
+              <div class="tab-pane fade" id="profile-basic" aria-expanded="false">
+                <table class="table table-lg table-hover table-responsive">
+                  <thead>
+                  <tr>
+                    <th>操作</th>
+                    <th>羊毛变化</th>
+                    <th>描述</th>
+                    <th>日期</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div><!--/.main-content -->
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-center text-md-left">Copyright&copy;2018物淘淘版权所有</p>
+          </div>
+        </div>
+      </footer>
+      <!-- END Footer -->
+
+    </main>
+    <!-- END Main container -->
+
+    <!-- Scripts -->
+    <script src="../assets/js/core.min.js"></script>
+    <script src="../assets/js/app.min.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="TheAdmin - Responsive Bootstrap 4 Admin, Dashboard &amp; WebApp Template">
+    <meta name="keywords" content="dashboard, index, main">
+
+    <title>编辑优惠</title>
+
+    <!-- Styles -->
+    <link href="../assets/css/core.min.css" rel="stylesheet">
+    <link href="../assets/css/app.min.css" rel="stylesheet">
+    <link href="../assets/css/style.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../assets/img/favicon.png">
+
+</head>
+
+<body>
+
+<!-- Preloader -->
+<div class="preloader">
+    <div class="spinner-dots">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+    </div>
+</div>
+
+
+<!-- Sidebar -->
+<aside class="sidebar sidebar-icons-left sidebar-expand-lg sidebar-sm">
+    <header class="sidebar-header bg-primary">
+        <a class="logo-icon" href="../index.html"><img src="../assets/img/logo-icon-light.png" alt="logo icon"></a>
+        <span class="logo">
+          <a href="../index.html"><img src="../assets/img/logo-light.png" alt="logo"></a>
+        </span>
+        <span class="sidebar-toggle-fold"></span>
+    </header>
+
+    <nav class="sidebar-navigation">
+        <ul class="menu menu-bordery">
+
+            <li class="menu-category">功能导航</li>
+
+            <li class="menu-item">
+                <a class="menu-link" href="../index.html">
+                    <span class="icon fa fa-home"></span>
+                    <span class="title">首页</span>
+                </a>
+            </li>
+
+            <li class="menu-item active open">
+                <a class="menu-link" href="#">
+                    <span class="icon fa fa-align-left"></span>
+                    <span class="title">优惠管理</span>
+                    <span class="arrow"></span>
+                </a>
+
+                <ul class="menu-submenu">
+                    <li class="menu-item active">
+                        <a class="menu-link" href="youhuifabulist.html">
+                            <span class="dot"></span>
+                            <span class="title">已发布优惠</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a class="menu-link" href="fenleilist.html">
+                            <span class="dot"></span>
+                            <span class="title">分类管理</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a class="menu-link" href="pinpailist.html">
+                            <span class="dot"></span>
+                            <span class="title">品牌管理</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a class="menu-link" href="danweilist.html">
+                            <span class="dot"></span>
+                            <span class="title">单位管理</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <a class="menu-link" href="#">
+                    <span class="icon fa fa-cloud-download"></span>
+                    <span class="title">采集管理</span>
+                    <span class="arrow"></span>
+                </a>
+
+                <ul class="menu-submenu">
+                    <li class="menu-item">
+                        <a class="menu-link" href="../caiji/youhuilist.html">
+                            <span class="dot"></span>
+                            <span class="title">已采集优惠</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a class="menu-link" href="../caiji/bazhuayugroup.html">
+                            <span class="dot"></span>
+                            <span class="title">采集任务</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <a class="menu-link" href="#">
+                    <span class="icon fa fa-shopping-bag"></span>
+                    <span class="title">兑换管理</span>
+                    <span class="arrow"></span>
+                </a>
+
+                <ul class="menu-submenu">
+                    <li class="menu-item">
+                        <a class="menu-link" href="../duihuan/duihuanlist.html">
+                            <span class="dot"></span>
+                            <span class="title">兑换列表</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a class="menu-link" href="../duihuan/duihuandingdanlist.html">
+                            <span class="dot"></span>
+                            <span class="title">订单列表</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <a class="menu-link" href="#">
+                    <span class="icon fa fa-user"></span>
+                    <span class="title">用户管理</span>
+                    <span class="arrow"></span>
+                </a>
+
+                <ul class="menu-submenu">
+                    <li class="menu-item">
+                        <a class="menu-link" href="../user/userlist.html">
+                            <span class="dot"></span>
+                            <span class="title">用户列表</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <a class="menu-link" href="#">
+                    <span class="icon fa fa-gear"></span>
+                    <span class="title">系统设置</span>
+                    <span class="arrow"></span>
+                </a>
+
+                <ul class="menu-submenu">
+                    <li class="menu-item">
+                        <a class="menu-link" href="../setting/person.html">
+                            <span class="dot"></span>
+                            <span class="title">个人信息</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="../setting/changepwd.html">
+                            <span class="dot"></span>
+                            <span class="title">修改密码</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="../setting/manager.html">
+                            <span class="dot"></span>
+                            <span class="title">后台用户管理</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+</aside>
+<!-- END Sidebar -->
+<!-- Topbar -->
+<header class="topbar">
+    <div class="topbar-left">
+        <h3 class="topbar-title">编辑优惠</h3>
+        <div class="topbar-divider d-none d-md-block"></div>
+        <span class="topbar-btn sidebar-toggler"><i>&#9776;</i></span>
+        <a class="topbar-btn d-none d-md-block" href="#" data-provide="fullscreen tooltip" title="Fullscreen">
+            <i class="material-icons fullscreen-default">fullscreen</i>
+            <i class="material-icons fullscreen-active">fullscreen_exit</i>
+        </a>
+
+
+    </div>
+
+    <div class="topbar-right">
+
+
+        <ul class="topbar-btns">
+            <li class="dropdown">
+                <span class="topbar-btn" data-toggle="dropdown"><img class="avatar" src="../assets/img/avatar/1.jpg"
+                                                                     alt="..."></span>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="../page/profile.html"><i class="ti-user"></i> 个人信息</a>
+                    <a class="dropdown-item" href="#"><i class="ti-settings"></i> 修改密码</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../page-extra/user-login-3.html"><i class="ti-power-off"></i> 退出</a>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+</header>
+<!-- END Topbar -->
+<!-- Main container -->
+<main>
+    <div class="main-content">
+        <div class="card">
+            <h4 class="card-title"><strong>编辑优惠</strong></h4>
+
+            <form data-provide="validation" data-disable="false">
+                <div class="card-body">
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label">抓取来源页</label>
+                        <div class="col-md-6">
+                            <a class="text-primary" href="#">查看链接</a>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label require">优惠类型</label>
+                        <div class="custom-controls-stacked col-md-6">
+                            <label class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="category_type" checked=""
+                                       id="category">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">普通优惠</span>
+                            </label>
+
+                            <label class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="category_type"
+                                       id="into_category">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">推广优惠</span>
+                            </label>
+
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label require" for="input-1">购物平台</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="input-1" required="" placeholder="购物平台">
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label require">跳转类型</label>
+                        <div class="custom-controls-stacked col-md-6">
+                            <label class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="radio" id="radio_other"
+                                       checked="">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">其他平台</span>
+                            </label>
+
+                            <label class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="radio" id="radio_jingdong">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">京东好物街</span>
+                            </label>
+
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row" id="jump_jingdong">
+                        <label class="col-md-2 col-form-label require" for="input-jd">主商品skuid</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="input-jd" required="" placeholder="主商品skuid">
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row" id="jump_other">
+                        <label class="col-md-2 col-form-label require" for="input-other">主商品购买链接</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="input-other" required="" placeholder="主商品购买链接">
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label require" for="input-3">商品名称</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="input-3" required="" placeholder="商品名称">
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label class="col-md-2 col-form-label require" id="fenlei_title">商品分类</label>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <select class="form-control" data-provide="selectpicker" id="onefenlei" required=""
+                                        title="一级分类">
+                                    <option>Mustard</option>
+                                    <option>Ketchup</option>
+                                    <option>Relish</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <select class="form-control" data-provide="selectpicker" id="twofenlei" required=""
+                                        title="二级分类">
+                                    <option>Mustard</option>
+                                    <option>Ketchup</option>
+                                    <option>Relish</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label class="col-md-2 col-form-label require">品牌</label>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <select class="form-control" data-provide="selectpicker" required title="品牌">
+                                    <option>Mustard</option>
+                                    <option>Ketchup</option>
+                                    <option>Relish</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label class="col-md-2 col-form-label require" for="input-6">主商品数量</label>
+                        <div class="form-group col-md-3">
+                            <div class="input-group">
+                                <input type="number" class="form-control" required="" placeholder="主商品件数">
+                                <span class="input-group-addon">件</span>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <div class="input-group">
+                                <input type="number" class="form-control" id="input-6" required placeholder="主商品数量">
+                                <div class="input-group-btn">
+                                    <select class="form-control" data-provide="selectpicker" required title="单位">
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label require" for="input-5">商品原价</label>
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <input type="number" class="form-control" required="" placeholder="商品原价">
+                                <span class="input-group-addon">元</span>
+                            </div>
+                            <small>商品单价的原始价格</small>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label require" for="input-5">实付总价</label>
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <input type="number" class="form-control" id="input-5" required="" placeholder="实付总价">
+                                <span class="input-group-addon" id="basic-addon2">元</span>
+                            </div>
+                            <small>仅可输入数字，为订单最终实付总金额</small>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <label class="col-md-2 col-form-label">折后单价</label>
+                        <div class="form-group col-md-3">
+                            <input type="text" class="form-control" value="折后单价(/件)" disabled="">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <input type="text" class="form-control" value="折后单价(/单位)" disabled="">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label">更多</label>
+                        <div class="custom-controls-stacked col-md-6">
+
+                            <label class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="check_coudanpin">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">可用凑单品</span>
+                            </label>
+                            <div class="form-group" id="btn_coudanpin">
+                                <a class="btn btn-w-xs btn-xs btn-primary col-lg-2" id="btn-new-item_other" href="#"><i
+                                        class="ti-plus fs-10"></i> 凑单品</a>
+                            </div>
+                            <label class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="check_activited">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">属于某活动</span>
+                            </label>
+                            <div class="form-group" id="btn_activited">
+                                <a class="btn btn-w-xs btn-xs btn-primary col-lg-2" id="btn-new-activited" href="#"><i
+                                        class="ti-plus fs-10"></i> 活动</a>
+                            </div>
+                            <label class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="check_youhuiquan">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">可叠加优惠券</span>
+                            </label>
+                            <div class="form-group" id="btn_youhuiquan">
+                                <a class="btn btn-w-xs btn-xs btn-primary col-lg-2" id="btn-new-youhuiquan" href="#"><i
+                                        class="ti-plus fs-10"></i> 优惠券</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label class="col-md-2 col-form-label">其他属性</label>
+                        <div class="col-md-6">
+                        	<div class="form-group">
+	                            <label class="custom-control custom-checkbox">
+	                                <input type="checkbox" class="custom-control-input">
+	                                <span class="custom-control-indicator"></span>
+	                                <span class="custom-control-description">包邮</span>
+	                            </label>
+
+	                            <label class="custom-control custom-checkbox">
+	                                <input type="checkbox" class="custom-control-input">
+	                                <span class="custom-control-indicator"></span>
+	                                <span class="custom-control-description">需拼购</span>
+	                            </label>
+
+	                            <label class="custom-control custom-checkbox">
+	                                <input type="checkbox" class="custom-control-input">
+	                                <span class="custom-control-indicator"></span>
+	                                <span class="custom-control-description">需加税费</span>
+	                            </label>
+
+	                            <label class="custom-control custom-checkbox">
+	                                <input type="checkbox" class="custom-control-input" id="xiangou">
+	                                <span class="custom-control-indicator"></span>
+	                                <span class="custom-control-description">限购</span>
+	                            </label>
+
+	                            <label class="custom-control custom-checkbox">
+	                                <input type="checkbox" class="custom-control-input" id="yushou">
+	                                <span class="custom-control-indicator"></span>
+	                                <span class="custom-control-description">预售</span>
+	                            </label>
+							</div>
+
+                            <div class="form-group row" id="xiangou_num">
+                                <div class="input-group col-md-6">
+                                    <input type="number" class="form-control" required="" placeholder="限购件数">
+                                    <span class="input-group-addon">件</span>
+                                </div>
+                            </div>
+
+                            <div class="row" id="yushou_date">
+                                <div class="form-group input-group col-md-6">
+                                    <input type="text" class="form-control" data-provide="datepicker" placeholder="预售时间"  required>
+                                    <span class="input-group-addon">
+				                    	<i class="fa fa-calendar"></i>
+				                  	</span>
+                                </div>
+                                <div class="form-group input-group col-md-6" data-provide="clockpicker"
+                                     data-autoclose="true">
+                                    <input type="text" class="form-control" required>
+                                    <span class="input-group-addon"><i class="ti-timer"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label require">过期时间</label>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="form-group input-group col-md-6">
+                                    <input type="text" class="form-control" data-provide="datepicker" required
+                                           id="date_year">
+                                    <span class="input-group-addon">
+                    					<i class="fa fa-calendar"></i>
+                  					</span>
+                                </div>
+                                <div class="form-group input-group col-md-6" data-provide="clockpicker"
+                                     data-autoclose="true">
+                                    <input type="text" class="form-control" required id="date_hour">
+                                    <span class="input-group-addon"><i class="ti-timer"></i></span>
+                                </div>
+                            </div>
+                            <label class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="date_status">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">已过期</span>
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label require" for="input-9">购买攻略</label>
+                        <div class="col-md-10">
+                            <div class="form-group">
+                                <a class="btn btn-w-xs btn-xs btn-primary col-lg-2" href="#">生成购买攻略</a>
+                            </div>
+                            <div id="goumai">
+                                <textarea data-provide="summernote" data-toolbar="slim" data-min-height="300" required
+                                          id="text_goumai"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label" for="input-2">优惠标题</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="input-2" placeholder="自动生成">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label" for="input-4">价格描述</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="input-4" placeholder="自动生成">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label" for="input-8">推荐理由</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="input-8" placeholder="自动生成">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label require">主图</label>
+                        <div class="col-md-6">
+                            <div id="img_border">
+                                <input id="img_text" type="file" data-provide="dropify"
+                                       data-allowed-file-extensions="jpg jpeg png" data-allowed-formats="square"
+                                       data-max-file-size="1M" required>
+                            </div>
+                            <small>添加1:1图，1mb以下的jpg、png格式的图片</small>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label">订单截图</label>
+                        <div class="col-md-6">
+                            <input type="file" data-provide="dropify" data-allowed-file-extensions="jpg jpeg png"
+                                   data-allowed-formats="square" data-max-file-size="1M">
+                            <small>尺寸不限，1mb以下的jpg、png格式的图片</small>
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <footer class="card-footer text-right">
+                    <button class="btn btn-w-xs btn-success" type="submit" id="save">保存</button>
+                    <button class="btn btn-w-xs btn-primary" type="submit">发布</button>
+                    <button class="btn btn-w-xs btn-secondary" type="button">返回</button>
+                </footer>
+
+
+            </form>
+        </div>
+    </div><!--/.main-content -->
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="text-center text-md-left">Copyright&copy;2018物淘淘版权所有</p>
+            </div>
+        </div>
+    </footer>
+    <!-- END Footer -->
+
+</main>
+<!-- END Main container -->
+
+<!-- Scripts -->
+<script src="../assets/js/core.min.js"></script>
+<script src="../assets/js/app.min.js"></script>
+<script src="../assets/js/script.min.js"></script>
+<script>
+    $('#save').on('click', function () {
+        var display = $('#img_text').next().next().css("display")
+        if ($("#text_goumai").summernote('isEmpty')) {
+            $("#goumai").css('border', '1px solid #f96868');
+        }
+        if (display == 'none') {
+            $('#img_border').css("border", "1px solid #f96868")
+        } else {
+            $('#img_border').css("border", "none")
+        }
+    })
+
+    //跳转类型--加载完成判断
+    if ($('#radio_other').prop('checked')) {
+        $('#jump_other').show()
+        $('#jump_jingdong').hide()
+        $('#input-jd').prop('required', false)
+        $('#coudanpin_type').attr('placeholder', '凑单品链接')
+    } else {
+        $('#jump_jingdong').show()
+        $('#jump_other').hide()
+        $('#input-other').prop('required', false)
+        $('#coudanpin_type').attr('placeholder', '凑单品skuid')
+    }
+    //跳转类型--点击时判断
+    $('#radio_other').on('click', function () {
+        $('#jump_other').show()
+        $('#jump_jingdong').hide()
+        $('#input-jd').prop('required', false)
+        $('#input-other').prop('required', true)
+    })
+    $('#radio_jingdong').on('click', function () {
+        $('#jump_other').hide()
+        $('#jump_jingdong').show()
+        $('#input-other').prop('required', false)
+        $('#input-jd').prop('required', true)
+    })
+    //凑单品复选框按钮
+    $("#btn_coudanpin").hide()
+    $('#check_coudanpin').on('click', function () {
+        if ($('#check_coudanpin').prop('checked')) {
+            $("#btn_coudanpin").show()
+        } else {
+            $("#btn_coudanpin").hide()
+        }
+    })
+    //凑单品点击添加input按钮
+    $('#btn-new-item_other').on('click', function () {
+        if ($("#radio_other").prop('checked')) {
+            var html = '' +
+                '<div class="form-group row align-items-center">' +
+                '<div class="col-md-4">' +
+                '<input type="text" class="form-control" placeholder="商品名称" id="input-placeholder">' +
+                '</div>' +
+                '<div class="col-md-6">' +
+                '<input type="text" class="form-control" placeholder="凑单品链接" id="coudanpin_type">' +
+                '</div>' +
+                '<a class="text-danger pl-12 btn-remove-item_other"  href="#" title="Remove" data-provide="tooltip"><i class="ti-close"></i></a>' +
+                '</div>';
+            $(this).before(html);
+            $('.btn-remove-item_other').on('click', function () {
+                $(this).parent().fadeOut(function () {
+                    $(this).remove()
+                })
+            });
+
+        }
+        if ($("#radio_jingdong").prop('checked')) {
+            var html = '' +
+                '<div class="form-group row align-items-center">' +
+                '<div class="col-md-4">' +
+                '<input type="text" class="form-control" placeholder="商品名称" id="input-placeholder">' +
+                '</div>' +
+                '<div class="col-md-6">' +
+                '<input type="text" class="form-control" placeholder="凑单品skuid" id="coudanpin_type">' +
+                '</div>' +
+                '<a class="text-danger pl-12 btn-remove-item_otherskuid" href="#" title="Remove" data-provide="tooltip"><i class="ti-close"></i></a>' +
+                '</div>';
+            $(this).before(html);
+            $('.btn-remove-item_otherskuid').on('click', function () {
+                $(this).parent().fadeOut(function () {
+                    $(this).remove()
+                })
+            });
+        }
+
+    });
+
+
+    //活动复选框按钮
+    $("#btn_activited").hide()
+    $('#check_activited').on('click', function () {
+        if ($('#check_activited').prop('checked')) {
+            $("#btn_activited").show()
+        } else {
+            $("#btn_activited").hide()
+        }
+    })
+    //活动添加input按钮
+    $(document).on('click', '#btn-new-activited', function () {
+        var html = '' +
+            '<div class="form-group row align-items-center">' +
+            '<div class="col-md-4">' +
+            '<input type="text" class="form-control" placeholder="活动名称" id="input-placeholder">' +
+            '</div>' +
+            '<div class="col-md-6">' +
+            '<input type="text" class="form-control" placeholder="活动链接" id="input-placeholder">' +
+            '</div>' +
+            '<a class="text-danger pl-12" id="btn-remove-activited" href="#" title="Remove" data-provide="tooltip"><i class="ti-close"></i></a>' +
+            '</div>';
+
+        $(this).before(html);
+    });
+    //删除当前行
+    $(document).on('click', '#btn-remove-activited', function () {
+        $(this).closest('.form-group').fadeOut(function () {
+            $(this).remove();
+        });
+    });
+    //叠加优惠券复选框按钮
+    $("#btn_youhuiquan").hide()
+    $('#check_youhuiquan').on('click', function () {
+        if ($('#check_youhuiquan').prop('checked')) {
+            $("#btn_youhuiquan").show()
+        } else {
+            $("#btn_youhuiquan").hide()
+        }
+    })
+    //叠加优惠券添加input按钮
+    $(document).on('click', '#btn-new-youhuiquan', function () {
+        var html = '' +
+            '<div class="form-group row align-items-center">' +
+            '<div class="col-md-4">' +
+            '<input type="text" class="form-control" placeholder="优惠券名称" id="input-placeholder">' +
+            '</div>' +
+            '<div class="col-md-6">' +
+            '<input type="text" class="form-control" placeholder="优惠券链接" id="input-placeholder">' +
+            '</div>' +
+            '<a class="text-danger pl-12" id="btn-remove-youhuiquan" href="#" title="Remove" data-provide="tooltip"><i class="ti-close"></i></a>' +
+            '</div>';
+        $(this).before(html);
+    });
+    //删除当前行
+    $(document).on('click', '#btn-remove-youhuiquan', function () {
+        $(this).closest('.form-group').fadeOut(function () {
+            $(this).remove();
+        });
+    });
+    //优惠类型判断是否必填
+    $('#into_category').on('click', function () {
+        $('#twofenlei').attr('required', false);
+        $('#onefenlei').attr('required', false);
+        $('#fenlei_title').removeClass('require');
+
+    })
+    $('#category').on('click', function () {
+        $('#twofenlei').attr('required', true);
+        $('#onefenlei').attr('required', true);
+        $('#fenlei_title').addClass('require');
+    })
+    //过期状态--加载完成时
+    if ($('#date_status').prop('checked')) {
+        $('#date_year').prop('required', false);
+        $('#date_hour').prop('required', false);
+    } else {
+        $('#date_year').prop('required', true);
+        $('#date_hour').prop('required', true);
+    }
+    //过期状态--点击时
+    $('#date_status').on('click', function () {
+        if ($('#date_status').prop('checked')) {
+            $('#date_year').prop('required', false);
+            $('#date_hour').prop('required', false);
+        } else {
+            $('#date_year').prop('required', true);
+            $('#date_hour').prop('required', true);
+        }
+    })
+    //限购和时间的显示隐藏
+    if ($("#xiangou").prop('checked')) {
+        $('#xiangou_num').show()
+    } else {
+        $('#xiangou_num').hide()
+    }
+    if ($("#yushou").prop('checked')) {
+        $('#yushou_date').show()
+    } else {
+        $('#yushou_date').hide()
+    }
+    $("#xiangou").on('click', function () {
+        if ($(this).prop('checked')) {
+            $('#xiangou_num').show()
+        } else {
+            $('#xiangou_num').hide()
+        }
+    })
+    $("#yushou").on('click', function () {
+        if ($(this).prop('checked')) {
+            $('#yushou_date').show()
+        } else {
+            $('#yushou_date').hide()
+        }
+    })
+</script>
+</body>
+</html>
